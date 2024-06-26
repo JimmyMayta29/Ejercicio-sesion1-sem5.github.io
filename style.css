@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+ES+Deco:wght@100..400&display=swap');
+
+body {
+    margin: 10px 50px;
+    padding: 5px;
+    background-color: rgb(136, 75, 193);
+    border-radius: 5px;
+}
+
+.container {
+    background-color: rgb(195, 131, 255);
+    border-radius: 5px;
+    margin: 5px 10px;
+    padding: 2px 5px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(82, 13, 13);
+    font-size: 50px;
+    margin: 0px 0px;
+}
+
+h2 {
+    color: black;
+}
+
+.span {
+    color: rgb(0, 255, 255);
+}
+
+ul li {
+    text-align: left;
+}
+
+ul li a {
+    /* Para este caso, usamos text-decoration: nonem, para quitar la linea que subraya los links, y cambiamos el color predeterminado de las palabras, por otro lado le cambiamos el tamaño por defecto que tienen las palabras en pixeles, que son 16 a 14px, de igual manera le añadimos un font-weight: bold*/
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* En este caso, se respeta el principio de cascada de no tener la especificidad de la clase "segundo" por lo que al tener una clase, se respeta el color rojo que se le atribuye, ya que tiene un valor de 10, en comparacion al valor 1 que tiene una etiqueta de por si. */
+.segundo {
+    color: red;
+    text-transform: uppercase;
+    /* le añadimos el text-transform: uppercase, para que el h2 se convierta en todo mayusculas */
+}
+
