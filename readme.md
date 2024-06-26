@@ -11,7 +11,7 @@
    clase : 10 (mayormente recomendado con el selector clase)
    id : 100 (reocmendado para JavaScript)
    inline : 1000
-   important (sinonimo de conflicto XD): infinito 
+   important (sinonimo de conflicto): infinito 
 
     (si no hay especificidad, se respeta la cascada)
     (si se tiene el mismo valor de especificidad, se respeta la cascada)

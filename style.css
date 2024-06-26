@@ -16,7 +16,9 @@ body {
 }
 
 h1 {
+    /* para dar color al texto */
     color: rgb(82, 13, 13);
+    /* para dar tamaño a la fuente */
     font-size: 50px;
     margin: 0px 0px;
 }
@@ -30,6 +32,7 @@ h2 {
 }
 
 ul li {
+    /* para centrar el texto */
     text-align: left;
 }
 
@@ -46,5 +49,6 @@ ul li a {
     color: red;
     text-transform: uppercase;
     /* le añadimos el text-transform: uppercase, para que el h2 se convierta en todo mayusculas */
+    text-decoration: line-through;
 }
 
